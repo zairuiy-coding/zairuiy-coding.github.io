@@ -42,22 +42,22 @@ const About = () => {
     <header>
       <h2 className="h2 article-title">About me</h2>
     </header>
-
     <section className="about-text">
-      <p>
-        I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-        I enjoy
-        turning complex problems into simple, beautiful and intuitive designs.
-      </p>
+    <p>
+        Hi, My name is Zairui (Katherine) Yang.👩
+        I'm a software engineer with a strong foundation in web and full-stack development. 💻  
+        I am currently pursuing my MSc in Computer and Information Technology at the University of Pennsylvania, 🏫 
+        where I have excelled in courses such as Programming for the Web, Data Structures and Software Design, and Database & Information Systems. 📚
+    </p>
 
-      <p>
-        My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-        Moreover, I
-        add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-        across your
-        message and identity in the most creative way. I created web design for many famous brand companies.
-      </p>
+    <p>
+        My experience includes implementing high-frequency live crypto-trading data systems, 📈 
+        developing efficient APIs, and leading front-end development projects. 🌐 
+        I am passionate about creating efficient, scalable, and user-friendly software solutions. 🚀 
+        My goal is to contribute to innovative projects that make a real impact. 🌟
+    </p>
     </section>
+
 
 
     {/* <!--

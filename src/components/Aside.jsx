@@ -54,7 +54,7 @@ const Aside = () => {
               <div className="contact-info">
                 <p className="contact-title">Phone</p>
 
-                <a href="tel:+12133522795" className="contact-link">
+                <a href="tel:+12672069435" className="contact-link">
                   +1 (267) 206-9435
                 </a>
               </div>
@@ -69,7 +69,7 @@ const Aside = () => {
               <div className="contact-info">
                 <p className="contact-title">Birthday</p>
 
-                <time dateTime="1982-06-23">July 11, 2000</time>
+                <time dateTime="2000-07-11">July 11, 2000</time>
               </div>
             </li>
 

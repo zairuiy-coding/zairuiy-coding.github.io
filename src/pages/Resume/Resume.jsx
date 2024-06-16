@@ -5,7 +5,7 @@ import SkillItem from './SkillItem';
 
 const Resume = () => {
   return (
-    <section>
+    <section className="resume-section">
       <header>
         <h2 className="h2 article-title">Resume</h2>
       </header>
@@ -19,19 +19,17 @@ const Resume = () => {
         </div>
         <ol className="timeline-list">
           <TimelineItem
-            title="University school of the arts"
-            date="2007 — 2008"
-            description="Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
-          />
-          <TimelineItem
-            title="New york academy of art"
-            date="2006 — 2007"
-            description="Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis."
-          />
-          <TimelineItem
-            title="High school of art and design"
-            date="2002 — 2004"
-            description="Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos."
+            title="University of Pennsylvania"
+            degree="MSc, Computer and Information Technology"
+            date="August 2023 — May 2025"
+            description={
+              <>
+                - GPA: 3.86/4.0<br />
+                - Coursework: Programming for the Web (JavaScript / React.js), Data Structures and Software Design (Java), Algorithms & Computation, Database & Information Systems (SQL/NoSQL), Computer Systems (C++)<br />
+                - TA: CIT590 Programming Languages and Techniques (Python & Java)<br />
+                - Awards: 2nd Place @ MCIT Hackathon 2024, Best Beginner Hack @ FemmeHack 2024
+              </>
+            }
           />
         </ol>
       </div>
@@ -45,30 +43,42 @@ const Resume = () => {
         </div>
         <ol className="timeline-list">
           <TimelineItem
-            title="Creative director"
-            date="2015 — Present"
-            description="Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur."
+            title="Software Engineer Intern"
+            company="SciFeCap"
+            date="May 2024 — Present"
+            description={
+              <>
+                - Implemented a WebSocket server for high-frequency live crypto-trading data ingestion, integrating efficient buffering and data aggregation methods.<br />
+                - Reduced database load by 40% and improved system performance by 15%.<br />
+                - Developed robust Django APIs, significantly improving data retrieval efficiency by 45%, enabling traders to access critical market signals instantly, leading to a 25% increase in trading accuracy.
+              </>
+            }
           />
           <TimelineItem
-            title="Art director"
-            date="2013 — 2015"
-            description="Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
-          />
-          <TimelineItem
-            title="Web designer"
-            date="2010 — 2013"
-            description="Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+            title="Software Engineer Intern (Frontend Team)"
+            company="Geward"
+            date="June 2023 — August 2023"
+            description={
+              <>
+                - Led the development and iterative improvement of the Geward website using HTML/CSS/JavaScript, enhancing user interface efficiency and reducing bounce rates by 40% while increasing user engagement by 25%.<br />
+                - Applied responsive design techniques, ensuring seamless functionality across multiple devices; improved user satisfaction by 25% and elevated site accessibility compliance by 15%.
+              </>
+            }
           />
         </ol>
       </div>
 
       <div className="skill">
-        <h3 className="h3 skills-title">My skills</h3>
+        <h3 className="h3 skills-title">My Skills</h3>
         <ul className="skills-list content-card">
-          <SkillItem title="Web design" value={80} />
-          <SkillItem title="Graphic design" value={70} />
-          <SkillItem title="Branding" value={90} />
-          <SkillItem title="WordPress" value={50} />
+          <SkillItem title="Java" value={90} />
+          <SkillItem title="Python" value={85} />
+          <SkillItem title="React.js" value={80} />
+          <SkillItem title="Node.js" value={75} />
+          <SkillItem title="Django" value={70} />
+          <SkillItem title="MySQL" value={80} />
+          <SkillItem title="MongoDB" value={75} />
+          <SkillItem title="AWS" value={70} />
         </ul>
       </div>
     </section>

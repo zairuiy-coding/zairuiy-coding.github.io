@@ -1,4 +1,4 @@
-import  { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { FaRegEye } from 'react-icons/fa';
 
 const Portfolio = () => {
@@ -39,7 +39,7 @@ const Portfolio = () => {
 
       {/* Filter buttons */}
       <ul className="filter-list">
-        {['All', 'Web design', 'Applications', 'Web development'].map(category => (
+        {['All', 'Full-Stack Development', 'Java Projects', 'Hackathon Winners'].map(category => (
           <li className="filter-item" key={category}>
             <button
               className={category === selectedCategory ? 'active' : ''}
@@ -62,7 +62,7 @@ const Portfolio = () => {
               data-category={project.category}
               key={project.id}
             >
-              <a href="#">
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
                 <figure className="project-img">
                   <div className="project-item-icon-box">
                     <FaRegEye />

@@ -1,57 +1,38 @@
 [
     {
       "id": 1,
-      "title": "Finance",
-      "category": "Web development",
-      "image": "images/project-1.jpg"
+      "title": "Task2Calendar",
+      "category": "Hackathon Winners",
+      "image": "images/projects/task2calendar_resized.jpg",
+      "link": "https://github.com/zairuiy-coding/mcit_hackathon_TaskToCalendar"
     },
     {
       "id": 2,
-      "title": "Orizon",
-      "category": "Web development",
-      "image": "images/project-2.png"
+      "title": "TimeToGoal",
+      "category": "Hackathon Winners",
+      "image": "images/projects/TimeToGoal2.jpg",
+      "link": "https://github.com/zairuiy-coding/TimeToGoal"
     },
     {
       "id": 3,
-      "title": "Fundo",
-      "category": "Web design",
-      "image": "images/project-3.jpg"
+      "title": "FindFlora",
+      "category": "Java Projects",
+      "image": "images/projects/FindFlora.jpg",
+      "link": "https://github.com/zairuiy-coding/FindFlora"
     },
     {
       "id": 4,
-      "title": "Brawlhalla",
-      "category": "Applications",
-      "image": "images/project-3.jpg"
+      "title": "Ufogram",
+      "category": "Full-Stack Development",
+      "image": "images/projects/ufogram3.jpg",
+      "link": "https://github.com/zairuiy-coding/ufogram"
     },
     {
       "id": 5,
-      "title": "DSM.",
-      "category": "Web design",
-      "image": "images/project-5.png"
-    },
-    {
-      "id": 6,
-      "title": "MetaSpark",
-      "category": "Web design",
-      "image": "images/project-6.png"
-    },
-    {
-      "id": 7,
-      "title": "Summary",
-      "category": "Web development",
-      "image": "images/project-7.png"
-    },
-    {
-      "id": 8,
-      "title": "Task Manager",
-      "category": "Applications",
-      "image": "images/project-8.jpg"
-    },
-    {
-      "id": 9,
-      "title": "Arrival",
-      "category": "Web development",
-      "image": "images/project-9.png"
+      "title": "IMDB Full-Stack Clone",
+      "category": "Full-Stack Development",
+      "image": "images/projects/imdb.png",
+      "link": "https://github.com/zairuiy-coding/CIS550-Project-Group-48"
     }
   ]
   

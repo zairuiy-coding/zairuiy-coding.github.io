@@ -44,8 +44,8 @@ const About = () => {
       </header>
       <section className="about-text">
         <p>
-          Hi, my name is Zairui (Katherine) Yang.👩 I'm a software engineer with a strong foundation in web and full-stack development. 💻  
-          I am currently pursuing my MSc in Computer and Information Technology at the University of Pennsylvania, 🏫 
+          Hi, my name is Zairui (Katherine) Yang. I'm a software engineer with a strong foundation in web and full-stack development. 👩‍💻
+          I am currently pursuing my MSc in Computer and Information Technology at the University of Pennsylvania, 🎓 
           where I have excelled in courses such as Programming for the Web, Data Structures and Software Design, and Database & Information Systems. 📚
         </p>
         <p>

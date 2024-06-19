@@ -1648,3 +1648,26 @@
   
   }
 
+/* Light mode styles for the filter button */
+.light-mode .filter-buttons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+  }
+  
+  .light-mode .filter-buttons button {
+    background: none;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: #333;
+  }
+  
+  .light-mode .filter-buttons button.active,
+  .light-mode .filter-buttons button:hover {
+    font-weight: bold;
+    color: #007bff;
+  }
+  

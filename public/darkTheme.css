@@ -1791,3 +1791,26 @@
   
   }
 
+/* Dark mode styles for the filter button*/
+.dark-mode .filter-buttons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+  }
+  
+  .dark-mode .filter-buttons button {
+    background: none;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: #ccc;
+  }
+  
+  .dark-mode .filter-buttons button.active,
+  .dark-mode .filter-buttons button:hover {
+    font-weight: bold;
+    color: #007bff;
+  }
+  

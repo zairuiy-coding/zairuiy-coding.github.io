@@ -1,38 +1,42 @@
 [
     {
-      "id": 1,
-      "title": "Task2Calendar",
-      "category": "Hackathon Winners",
-      "image": "images/projects/task2calendar_resized.jpg",
-      "link": "https://github.com/zairuiy-coding/mcit_hackathon_TaskToCalendar"
+        "title": "FindFlora",
+        "category": "Java Projects",
+        "date": "2024-05",
+        "image": "images/projects/FindFlora.jpg",
+        "description": "A Java-based recommendation engine that employs machine learning techniques and spatial data structures to offer personalized flower recommendations.",
+        "link": "https://github.com/zairuiy-coding/FindFlora"
     },
     {
-      "id": 2,
-      "title": "TimeToGoal",
-      "category": "Hackathon Winners",
-      "image": "images/projects/TimeToGoal2.jpg",
-      "link": "https://github.com/zairuiy-coding/TimeToGoal"
+        "title": "Task2Calendar",
+        "category": "Hackathon Winners",
+        "date": "2024-01",
+        "image": "images/projects/task2calendar_resized.jpg",
+        "description": "A light-weighted Chrome Extension that clips tasks from web pages directly to your calendar.",
+        "link": "https://github.com/zairuiy-coding/mcit_hackathon_TaskToCalendar"
     },
     {
-      "id": 3,
-      "title": "FindFlora",
-      "category": "Java Projects",
-      "image": "images/projects/FindFlora.jpg",
-      "link": "https://github.com/zairuiy-coding/FindFlora"
+        "title": "TimeToGoal",
+        "category": "Hackathon Winners",
+        "date": "2024-02",
+        "image": "images/projects/TimeToGoal2.jpg",
+        "description": "An iOS app that combines short-term task planning and long-term goal tracking to help users stay focused.",
+        "link": "https://github.com/zairuiy-coding/TimeToGoal"
     },
     {
-      "id": 4,
-      "title": "Ufogram",
-      "category": "Full-Stack Development",
-      "image": "images/projects/ufogram3.jpg",
-      "link": "https://github.com/zairuiy-coding/ufogram"
+        "title": "Ufogram",
+        "category": "Full-Stack Development",
+        "date": "2023-10",
+        "image": "images/projects/ufogram3.jpg",
+        "description": "A full-stack clone of Instagram, featuring user registration, profile customization, dynamic content feeds, and multimedia uploading.",
+        "link": "https://github.com/zairuiy-coding/ufogram"
     },
     {
-      "id": 5,
-      "title": "IMDB Full-Stack Clone",
-      "category": "Full-Stack Development",
-      "image": "images/projects/imdb.png",
-      "link": "https://github.com/zairuiy-coding/CIS550-Project-Group-48"
+        "title": "IMDB Full-Stack Clone",
+        "category": "Full-Stack Development",
+        "date": "2023-09",
+        "image": "images/projects/imdb.png",
+        "description": "A full-stack clone of IMDB for movie database management, featuring advanced search functionalities and optimized back-end queries.",
+        "link": "https://github.com/zairuiy-coding/CIS550-Project-Group-48"
     }
-  ]
-  
+]

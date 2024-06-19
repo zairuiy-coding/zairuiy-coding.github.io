@@ -1,15 +1,13 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
-// import './test.css'; // for debugging
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App.jsx';
+import './index.css';
 
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
 import Portfolio from './pages/Portfolio/Portfolio.jsx';
-import Blogs from './pages/Blogs/Blogs.jsx';
 import Resume from './pages/Resume/Resume.jsx';
 import About from './pages/About/About.jsx';
 import Contact from './pages/Contact/Contact.jsx';
@@ -17,27 +15,23 @@ import Contact from './pages/Contact/Contact.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element: <App />,
     children: [
       {
         path: "/",
-        element: <About/>,
+        element: <About />,
       },
       {
         path: "/resume",
-        element: <Resume/>,
+        element: <Resume />,
       },
       {
         path: "/portfolio",
-        element: <Portfolio/>,
-      },
-      {
-        path: "blogs",
-        element: <Blogs/>
+        element: <Portfolio />,
       },
       {
         path: "contact",
-        element: <Contact/>
+        element: <Contact />,
       }
     ]
   },
@@ -47,4 +41,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>,
-)
+);

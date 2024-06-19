@@ -290,6 +290,7 @@
     max-height: 112px;
     overflow: hidden;
     transition: var(--transition-2);
+    width: 350px; /* Increase the width */
   }
   
   .sidebar.active { max-height: 405px; }
@@ -385,8 +386,8 @@
   }
   
   .contact-info {
-    max-width: calc(100% - 46px);
-    width: calc(100% - 46px);
+    max-width: calc(100% - 50px);
+    width: calc(100% - 50px);
   }
   
   .contact-title {
@@ -1600,6 +1601,7 @@
       margin-bottom: 0;
       padding-top: 60px;
       z-index: 1;
+      width: 350px; /* Increase the width */
     }
   
     .sidebar-info { flex-direction: column; }
@@ -1682,5 +1684,9 @@ body.light-mode .theme-switcher {
   
   body.light-mode .theme-switcher:hover {
     color: #00bfff; /* Light blue hover effect */
+  }
+  
+  #customSidebar {
+    width: 400px; /* Increase the width */
   }
   

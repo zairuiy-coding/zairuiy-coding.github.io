@@ -2,7 +2,7 @@ import { GiCalendar, GiClawSlashes, GiMailbox, GiMayanPyramid, GiPhone } from "r
 
 const Aside = () => {
   return (
-    <aside className="sidebar">
+    <aside className="sidebar" id="customSidebar">
         <div className="sidebar-info">
           <figure className="avatar-box">
             <img
@@ -13,7 +13,7 @@ const Aside = () => {
           </figure>
 
           <div className="info-content">
-            <h1 className="name" title="Richard hanrick">
+            <h1 className="name" title="Zairui Yang">
               Zairui Yang
             </h1>
             <p className="title">Software Engineer</p>
@@ -34,7 +34,6 @@ const Aside = () => {
             <li className="contact-item">
               <div className="icon-box">
                 <GiMailbox/>
-                
               </div>
 
               <div className="contact-info">
@@ -63,7 +62,6 @@ const Aside = () => {
             <li className="contact-item">
               <div className="icon-box">
                 <GiCalendar/>
-               
               </div>
 
               <div className="contact-info">
@@ -76,7 +74,6 @@ const Aside = () => {
             <li className="contact-item">
               <div className="icon-box">
                 <GiMayanPyramid/>
-                <ion-icon name="location-outline"></ion-icon>
               </div>
 
               <div className="contact-info">
@@ -113,4 +110,4 @@ const Aside = () => {
   )
 }
 
-export default Aside
+export default Aside;

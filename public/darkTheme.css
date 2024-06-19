@@ -310,6 +310,7 @@
     max-height: 112px;
     overflow: hidden;
     transition: var(--transition-2);
+    width: 350px; /* Increase the width */
   }
   
   .sidebar.active { max-height: 405px; }
@@ -1827,3 +1828,76 @@
     color: #00bfff; /* Light blue hover effect */
   }
   
+  /* Styling for Sidebar */
+  /* Common Styles */
+.sidebar {
+  width: 300px; /* Increase the width */
+  padding: 20px;
+  background: var(--eerie-black-2); /* Ensure this matches your design */
+  border-radius: 20px;
+  box-shadow: var(--shadow-1);
+  z-index: 1;
+}
+
+.sidebar-info .avatar-box img {
+  border-radius: 20px;
+}
+
+.info-content .name {
+  color: var(--white-2);
+  font-size: var(--fs-3);
+  font-weight: var(--fw-500);
+  letter-spacing: -0.25px;
+  margin-bottom: 10px;
+}
+
+.info-content .title {
+  color: var(--white-1);
+  background: var(--onyx);
+  font-size: var(--fs-8);
+  font-weight: var(--fw-300);
+  width: max-content;
+  padding: 3px 12px;
+  border-radius: 8px;
+}
+
+.contacts-list .contact-info .contact-link {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.contacts-list .contact-info {
+  max-width: calc(100% - 50px); /* Ensure there is enough space for icons */
+}
+
+/* Light Mode Styles */
+body.light-mode .sidebar {
+  background: #f0f0f0;
+  color: #333;
+}
+
+body.light-mode .info-content .name,
+body.light-mode .info-content .title {
+  color: #333;
+}
+
+body.light-mode .contacts-list .contact-info .contact-link {
+  color: #007bff;
+}
+
+/* Dark Mode Styles */
+body.dark-mode .sidebar {
+  background: #1e1e2e;
+  color: #fff;
+}
+
+body.dark-mode .info-content .name,
+body.dark-mode .info-content .title {
+  color: #fff;
+}
+
+body.dark-mode .contacts-list .contact-info .contact-link {
+  color: #4da6ff;
+}

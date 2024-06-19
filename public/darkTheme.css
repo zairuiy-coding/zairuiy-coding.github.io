@@ -1816,6 +1816,7 @@
   
   /* Styling for ThemeSwitcher */
   body:not(.light-mode) .theme-switcher {
+    font-family: var(--ff-poppins);
     color: #fff; /* Light text for dark mode */
     background-color: transparent; /* No background color */
     border: none; /* No border */

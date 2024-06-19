@@ -24,17 +24,16 @@
   
   /* Light mode styles */
   body.light-mode .blog-post-item {
-    background-color: #fff;
+    background-color: transparent; /* Transparent background */
     color: #333;
     padding: 15px;
     border-radius: 8px;
     transition: transform 0.2s ease-in-out;
-    border: 1px solid #ddd; /* Light border */
+    border: none; /* Remove border */
   }
   
   body.light-mode .blog-post-item:hover {
     transform: translateY(-10px);
-    border: 1px solid #007bff;
     box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2); /* Optional: Add box shadow */
   }
   

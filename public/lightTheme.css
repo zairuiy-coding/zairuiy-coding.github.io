@@ -1671,3 +1671,15 @@
     color: #007bff;
   }
   
+/* Styling for ThemeSwitcher */
+body.light-mode .theme-switcher {
+    color: #000; /* Dark text for light mode */
+    background-color: transparent; /* No background color */
+    border: none; /* No border */
+    cursor: pointer; /* Change cursor to pointer */
+  }
+  
+  body.light-mode .theme-switcher:hover {
+    color: #00bfff; /* Light blue hover effect */
+  }
+  

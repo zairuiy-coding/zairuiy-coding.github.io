@@ -1,45 +1,42 @@
 [
     {
-      "title": "Design conferences in 2022",
-      "category": "Design",
-      "date": "Feb 23, 2022",
-      "image": "/images/blog-1.jpg",
-      "description": "Veritatis et quasi architecto beatae vitae dicta sunt, explicabo."
+        "title": "FindFlora",
+        "category": "Java Projects",
+        "date": "2024-05",
+        "image": "images/projects/FindFlora.jpg",
+        "description": "A Java-based recommendation engine that employs machine learning techniques and spatial data structures to offer personalized flower recommendations.",
+        "link": "https://github.com/zairuiy-coding/FindFlora"
     },
     {
-      "title": "Best fonts every designer",
-      "category": "Design",
-      "date": "Feb 23, 2022",
-      "image": "/images/blog-2.jpg",
-      "description": "Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi."
+        "title": "Task2Calendar",
+        "category": "Hackathon Winners",
+        "date": "2024-01",
+        "image": "images/projects/task2calendar_resized.jpg",
+        "description": "A light-weighted Chrome Extension that clips tasks from web pages directly to your calendar.",
+        "link": "https://github.com/zairuiy-coding/mcit_hackathon_TaskToCalendar"
     },
     {
-      "title": "Design digest #80",
-      "category": "Design",
-      "date": "Feb 23, 2022",
-      "image": "/images/blog-3.jpg",
-      "description": "Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit."
+        "title": "TimeToGoal",
+        "category": "Hackathon Winners",
+        "date": "2024-02",
+        "image": "images/projects/TimeToGoal2.jpg",
+        "description": "An iOS app that combines short-term task planning and long-term goal tracking to help users stay focused.",
+        "link": "https://github.com/zairuiy-coding/TimeToGoal"
     },
     {
-      "title": "UI interactions of the week",
-      "category": "Design",
-      "date": "Feb 23, 2022",
-      "image": "/images/blog-4.jpg",
-      "description": "Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi."
+        "title": "Ufogram",
+        "category": "Full-Stack Development",
+        "date": "2023-10",
+        "image": "images/projects/ufogram3.jpg",
+        "description": "A full-stack clone of Instagram, featuring user registration, profile customization, dynamic content feeds, and multimedia uploading.",
+        "link": "https://github.com/zairuiy-coding/ufogram"
     },
     {
-      "title": "The forgotten art of spacing",
-      "category": "Design",
-      "date": "Feb 23, 2022",
-      "image": "/images/blog-5.jpg",
-      "description": "Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      "title": "Design digest #79",
-      "category": "Design",
-      "date": "Feb 23, 2022",
-      "image": "/images/blog-6.jpg",
-      "description": "Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum."
+        "title": "IMDB Full-Stack Clone",
+        "category": "Full-Stack Development",
+        "date": "2023-09",
+        "image": "images/projects/imdb.png",
+        "description": "A full-stack clone of IMDB for movie database management, featuring advanced search functionalities and optimized back-end queries.",
+        "link": "https://github.com/zairuiy-coding/CIS550-Project-Group-48"
     }
-  ]
-  
+]

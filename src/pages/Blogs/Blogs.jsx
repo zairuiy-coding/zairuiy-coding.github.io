@@ -5,7 +5,7 @@ import './Blogs.css'
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage] = useState(4); // Number of posts per page
+  const [postsPerPage] = useState(6); // Number of posts per page
 
   useEffect(() => {
     fetch('blogs.json')

@@ -133,8 +133,8 @@ const About = () => {
       <section className="achievements">
         <h3 className="h3 achievements-title">Achievements</h3>
         <ul>
-          <li>🥇 2nd Place @ MCIT Hackathon 2024</li>
-          <li>🏆 Best Beginner Hack @ FemmeHack 2024</li>
+          <li>🥇 2nd Place @ MCIT Hackathon 2024.</li>
+          <li>🏆 Best Beginner Hack @ FemmeHack 2024.</li>
         </ul>
       </section>
     </article>

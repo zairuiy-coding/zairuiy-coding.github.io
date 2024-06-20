@@ -67,7 +67,7 @@ const Resume = () => {
           />
         </ol>
       </div>
-
+{/* 
       <div className="skill">
         <h3 className="h3 skills-title">My Skills</h3>
         <ul className="skills-list content-card">
@@ -77,7 +77,7 @@ const Resume = () => {
           <SkillItem title="Django" value={70} />
           <SkillItem title="MySQL" value={70} />
         </ul>
-      </div>
+      </div> */}
     </section>
   );
 };

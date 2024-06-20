@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 const ThemeSwitcher = () => {
-  const [theme, setTheme] = useState('dark'); // Set default theme to 'dark'
+  const [theme, setTheme] = useState('light'); // Set default theme to 'light'
 
   useEffect(() => {
     const themeLink = document.getElementById('theme-link');

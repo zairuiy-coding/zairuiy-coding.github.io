@@ -1690,3 +1690,29 @@ body.light-mode .theme-switcher {
     width: 400px; /* Increase the width */
   }
   
+  /* Stlying for About Page Skills */
+  .skills-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .skills-category {
+    margin-bottom: 20px;
+  }
+  
+  .skills-category h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skills-list img {
+    height: 40px;
+  }
+  

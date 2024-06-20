@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://zairuiy-coding.github.io/zairuiy-personal-portfolio",
+  "homepage": "https://zairuiy-coding.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -17,7 +17,7 @@ const Aside = () => {
               Zairui Yang
             </h1>
             <p className="title">Software Engineer</p>
-            <p className="title">Web developer</p>
+            <p className="title">Full-stack Development</p>
           </div>
 
           <button className="info_more-btn" data-sidebar-btn>

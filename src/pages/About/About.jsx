@@ -4,23 +4,23 @@ import Service from "./Service";
 const servicesData = [
   {
     icon: "/images/icon-design.svg",
-    title: "Web Development",
-    description: "Crafting modern and responsive websites with a focus on user experience and performance."
+    title: "Backend Development",
+    description: "Building scalable, high-performance backend systems with Golang, Kafka, and FastAPI."
   },
   {
     icon: "/images/icon-dev.svg",
-    title: "Software Development",
-    description: "Building efficient and scalable software solutions tailored to meet specific needs."
+    title: "Full-Stack Development",
+    description: "Developing robust full-stack applications with React, Next.js, and Node.js."
   },
   {
     icon: "/images/icon-photo.svg",
-    title: "Database Management",
-    description: "Implementing robust database solutions to ensure data integrity, security, and optimal performance."
+    title: "Data Engineering",
+    description: "Designing efficient data pipelines and processing systems for real-time analytics."
   },
   {
     icon: "/images/icon-design.svg",  // Replace with a more appropriate icon if available
     title: "API Development",
-    description: "Creating efficient and secure APIs for seamless integration and data exchange."
+    description: "Creating secure, high-performance APIs and microservices for seamless integration."
   }
 ];
 
@@ -31,18 +31,33 @@ const About = () => {
         <h2 className="h2 article-title">About me</h2>
       </header>
       <section className="about-text">
+        {/* Introduction */}
         <p>
-          Hi, my name is Zairui (Katherine) Yang. I'm a software engineer with a strong foundation in web and full-stack development. 👩‍💻
-          I am currently pursuing my MSc in Computer and Information Technology at the University of Pennsylvania, 🎓 
-          where I have excelled in courses such as Programming for the Web, Data Structures and Software Design, and Database & Information Systems. 📚
+            👋 Hi, I'm <strong>Zairui (Katherine) Yang</strong>, a passionate software engineer 
+            specializing in backend systems, data engineering, and full-stack development.  
+            I’m currently pursuing my <strong>MSc in Computer and Information Technology</strong> at the 
+            University of Pennsylvania, graduating in <strong>May 2025</strong>.
         </p>
+        
+        <br />
+
+        {/* Experience Section */}
+        <p>🔹 <strong>Work Experience</strong></p>
+        <ul>
+            <li>⚡ <strong>Tesla | Software Engineer Intern</strong> – Migrated a legacy .NET ETL system to Golang & React, enhancing scalability for 200+ factory processes.</li>
+            <li>📈 <strong>SciFeCap | Software Engineer Intern</strong> – Built a WebSocket-based real-time data pipeline, optimizing high-frequency trading data and reducing database load.</li>
+            <li>🤖 <strong>MCIT Slack Bot | Software Engineer</strong> – Developed an AI-powered alumni search tool using OpenAI API, Redis, and Celery, scaling to 300+ users.</li>
+        </ul>
+
+        <br />
+
+        {/* Motivation Section */}
         <p>
-          My experience includes implementing high-frequency live crypto-trading data systems, 📈 
-          developing efficient APIs, and leading front-end development projects. 🌐 
-          I am passionate about creating efficient, scalable, and user-friendly software solutions. 🚀 
-          My goal is to contribute to innovative projects that make a real impact. 🌟
+            💡 I thrive on building scalable, high-performance systems and tackling complex engineering challenges.  
+            I’m always eager to explore new technologies and push the boundaries of what’s possible.
         </p>
-      </section>
+
+    </section>
 
       {/* Services Section */}
       <section className="service">
@@ -60,75 +75,67 @@ const About = () => {
       </section>
 
       {/* Skills Section */}
-      <section className="skills-section">
-        <h3 className="h3 skills-title">Skills</h3>
+        <section className="skills-section">
+            <h3 className="h3 skills-title">Skills</h3>
 
-        <div className="skills-category">
-          <h4>Languages</h4>
-          <div className="skills-list">
-            <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
-            <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-            <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-            <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-            <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-            <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-            <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-            <img src="https://img.shields.io/badge/Assembly-525252?style=for-the-badge&logo=assembly&logoColor=white" alt="Assembly" />
-            <img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white" alt="Swift" />
-            <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sql&logoColor=white" alt="SQL" />
-          </div>
-        </div>
+            {/* Languages */}
+            <div className="skills-category">
+                <h4>Languages</h4>
+                <div className="skills-list">
+                    <img src="https://img.shields.io/badge/Go-00ADD8?logo=Go&logoColor=white&style=for-the-badge" alt="Go" /> 
+                    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /> 
+                    <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java" /> 
+                    <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" /> 
+                    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /> 
+                    <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sql&logoColor=white" alt="SQL" />
+                </div>
+            </div>
 
-        <div className="skills-category">
-          <h4>Frontend</h4>
-          <div className="skills-list">
-            <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-            <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-            <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
-            <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-            <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-            <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS" />
-            <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
-            <img src="https://img.shields.io/badge/Babel-F9DC3E?style=for-the-badge&logo=babel&logoColor=black" alt="Babel" />
-            <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
-          </div>
-        </div>
+            {/* Backend & Data Engineering */}
+            <div className="skills-category">
+                <h4>Backend & Data Engineering</h4>
+                <div className="skills-list">
+                    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" /> 
+                    <img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Kafka" />
+                    <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+                    <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
+                    <img src="https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white" alt="Celery" />
+                </div>
+            </div>
 
-        <div className="skills-category">
-          <h4>Backend</h4>
-          <div className="skills-list">
-            <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
-            <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="Jest" />
-            <img src="https://img.shields.io/badge/JUnit-25A162?style=for-the-badge&logo=junit&logoColor=white" alt="JUnit" />
-            <img src="https://img.shields.io/badge/Powershell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="Powershell" />
-          </div>
-        </div>
+            {/* Frontend */}
+            <div className="skills-category">
+                <h4>Frontend</h4>
+                <div className="skills-list">
+                    <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" /> 
+                    <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+                    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+                    <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" /> 
+                </div>
+            </div>
 
-        <div className="skills-category">
-          <h4>Databases</h4>
-          <div className="skills-list">
-            <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-            <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-            <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-            <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
-            <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle" />
-            <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-            <img src="https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white" alt="Neo4j" />
-          </div>
-        </div>
+            {/* Databases */}
+            <div className="skills-category">
+                <h4>Databases</h4>
+                <div className="skills-list">
+                    <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" /> 
+                    <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" /> 
+                    <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" /> 
+                    <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
+                </div>
+            </div>
 
-        <div className="skills-category">
-          <h4>Cloud & Other Tools</h4>
-          <div className="skills-list">
-            <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
-            <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku" />
-            <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-            <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-            <img src="https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white" alt="Cypress" />
-          </div>
-        </div>
+            {/* Cloud & DevOps */}
+            <div className="skills-category">
+                <h4>Cloud & DevOps</h4>
+                <div className="skills-list">
+                    <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" /> 
+                    <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+                    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" /> 
+                </div>
+            </div>
+        </section>
 
-      </section>
 
       <section className="achievements">
         <h3 className="h3 achievements-title">Achievements</h3>

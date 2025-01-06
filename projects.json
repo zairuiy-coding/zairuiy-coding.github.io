@@ -29,7 +29,7 @@
         "date": "2023-10",
         "image": "images/projects/ufogram3.jpg",
         "description": "A full-stack clone of Instagram, featuring user registration, profile customization, dynamic content feeds, and multimedia uploading.",
-        "link": "https://github.com/zairuiy-coding/ufogram"
+        "link": "https://ufogram-frontend.fly.dev"
     },
     {
         "title": "IMDB Full-Stack Clone",
@@ -37,6 +37,6 @@
         "date": "2023-09",
         "image": "images/projects/imdb.png",
         "description": "A full-stack clone of IMDB for movie database management, featuring advanced search functionalities and optimized back-end queries.",
-        "link": "https://github.com/zairuiy-coding/CIS550-Project-Group-48"
+        "link": "https://imdb-full-stack-clone.netlify.app"
     }
 ]

@@ -37,6 +37,6 @@
         "date": "2023-09",
         "image": "images/projects/imdb.png",
         "description": "A full-stack clone of IMDB for movie database management, featuring advanced search functionalities and optimized back-end queries.",
-        "link": "https://imdb-full-stack-clone.netlify.app"
+        "link": "https://github.com/zairuiy-coding/IMDB-full-stack-clone.git"
     }
 ]

@@ -1,8 +1,15 @@
 import { GiCalendar, GiClawSlashes, GiMailbox, GiMayanPyramid, GiPhone } from "react-icons/gi";
+import { useState } from "react";
 
 const Aside = () => {
+  const [isSidebarActive, setIsSidebarActive] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsSidebarActive(!isSidebarActive);
+  };
+
   return (
-    <aside className="sidebar" id="customSidebar">
+    <aside className={`sidebar ${isSidebarActive ? 'active' : ''}`} id="customSidebar">
         <div className="sidebar-info">
           <figure className="avatar-box">
             <img
@@ -20,7 +27,7 @@ const Aside = () => {
             <p className="title">Full-stack Development</p>
           </div>
 
-          <button className="info_more-btn" data-sidebar-btn>
+          <button className="info_more-btn" data-sidebar-btn onClick={toggleSidebar}>
             <span>Show Contacts</span>
 
             <GiClawSlashes />

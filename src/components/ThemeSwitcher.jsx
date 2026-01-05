@@ -10,14 +10,11 @@ const ThemeSwitcher = () => {
     // Save theme preference to localStorage
     localStorage.setItem('theme', theme);
 
-    // Update the theme CSS and body class
-    const themeLink = document.getElementById('theme-link');
+    // Toggle data-theme attribute on document root
     if (theme === 'dark') {
-      themeLink.href = '/darkTheme.css';
-      document.body.classList.remove('light-mode');
+      document.documentElement.setAttribute('data-theme', 'dark');
     } else {
-      themeLink.href = '/lightTheme.css';
-      document.body.classList.add('light-mode');
+      document.documentElement.removeAttribute('data-theme');
     }
   }, [theme]);
 
@@ -26,8 +23,9 @@ const ThemeSwitcher = () => {
   };
 
   return (
-    <button className="theme-switcher" onClick={toggleTheme}>
-      Switch to {theme === 'light' ? 'Dark' : 'Light'} Mode
+    <button className="theme-switcher" onClick={toggleTheme} aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}>
+      <ion-icon name={theme === 'light' ? 'moon-outline' : 'sunny-outline'}></ion-icon>
+      <span className="theme-switcher-text">{theme === 'light' ? 'Dark' : 'Light'} Mode</span>
     </button>
   );
 };

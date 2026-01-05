@@ -9,8 +9,8 @@ function App() {
     <>
       <Aside />
       <div className="main-content">
-        <Navbar />
         <ThemeSwitcher />
+        <Navbar />
         <section style={{ scrollBehavior: "smooth" }}>
           <Outlet />
         </section>

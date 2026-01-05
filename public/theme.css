@@ -1795,7 +1795,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 @media (min-width: 1024px) {
   .theme-switcher {
     position: absolute;
-    top: 0;
+    top: -50px;
     left: 0;
     margin-left: 0;
     margin-bottom: 0;

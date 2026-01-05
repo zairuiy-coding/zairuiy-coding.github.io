@@ -42,6 +42,18 @@ const Resume = () => {
         </div>
         <ol className="timeline-list">
           <TimelineItem
+            title="Software Engineer"
+            company="PayPal | JunoDB Team"
+            date="Jun 2025 — Present"
+            description={[
+              "‣ Improved client library reliability by expanding test coverage from 67% to 80%, reducing defects and increasing stability.",
+              "‣ Designed and prototyped a Distributed Counter enhancement for high-throughput, write-heavy workloads, exploring architectures that could offer 10x throughput improvement and inform future scalability work.",
+              "‣ Built automation for JunoDB's capacity evaluation and blast radius processes, modeling node utilization and service CPU/memory profiles to streamline P0 incident follow-up and improve infrastructure safety.",
+              "‣ Supported infrastructure modernization efforts by assisting with JunoDB's Kubernetes-based migration and strengthening observability through optimized Datadog metric filters and alert thresholds.",
+              "‣ Enhanced client experience by independently troubleshooting 10+ weekly integration issues, identifying recurring usage patterns, and publishing a 20+ entry troubleshooting guide adopted internally."
+            ]}
+          />
+          <TimelineItem
             title="Software Engineer Intern"
             company="Tesla | Factory Software Team"
             date="Sep 2024 — Dec 2024"
@@ -59,16 +71,6 @@ const Resume = () => {
               "‣ Implemented a WebSocket-based high-frequency trading data pipeline, reducing database load by 40%.",
               "‣ Developed a FastAPI service for financial signals, reducing latency to under 0.05 seconds.",
               "‣ Automated historical trading data ingestion from AWS S3 to PostgreSQL for backtesting and strategy replication."
-            ]}
-          />
-          <TimelineItem
-            title="Software Engineer Intern"
-            company="Lonely Octopus | LO x MCIT"
-            date="Jul 2024 — Aug 2024"
-            description={[
-              "‣ Developed an AI-powered Slack Bot for alumni search, integrating OpenAI API, Redis, and Celery.",
-              "‣ Designed natural language processing prompts, achieving 90% accuracy in query responses.",
-              "‣ Implemented scalable session management, reducing response time by 30% for a workspace of 300+ users."
             ]}
           />
         </ol>

@@ -1,9 +1,16 @@
 import React, { useEffect, useState } from 'react';
 
 const ThemeSwitcher = () => {
-  const [theme, setTheme] = useState('light'); // Set default theme to 'light'
+  // Initialize theme from localStorage or default to 'light'
+  const [theme, setTheme] = useState(() => {
+    return localStorage.getItem('theme') || 'light';
+  });
 
   useEffect(() => {
+    // Save theme preference to localStorage
+    localStorage.setItem('theme', theme);
+
+    // Update the theme CSS and body class
     const themeLink = document.getElementById('theme-link');
     if (theme === 'dark') {
       themeLink.href = '/darkTheme.css';

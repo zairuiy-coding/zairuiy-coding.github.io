@@ -79,30 +79,8 @@ const Aside = () => {
               <div className="contact-info">
                 <p className="contact-title">Location</p>
 
-                <address>Philadelphia, Pennsylvania, USA</address>
+                <address>Austin, TX</address>
               </div>
-            </li>
-          </ul>
-
-          <div className="separator"></div>
-
-          <ul className="social-list">
-            <li className="social-item">
-              <a href="#" className="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-
-            <li className="social-item">
-              <a href="#" className="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-            <li className="social-item">
-              <a href="#" className="social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
             </li>
           </ul>
         </div>

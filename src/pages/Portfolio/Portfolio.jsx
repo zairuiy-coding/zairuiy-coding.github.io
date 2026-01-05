@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import BlogPost from './BlogPost';
+import LoadingSpinner from '../../components/LoadingSpinner';
 import './Portfolio.css';
 
 const Portfolio = () => {
@@ -41,9 +42,7 @@ const Portfolio = () => {
         <h2 className="h2 article-title">Projects</h2>
       </header>
 
-      {loading && (
-        <p>Loading projects...</p>
-      )}
+      {loading && <LoadingSpinner />}
 
       {error && (
         <p style={{ color: 'var(--orange-yellow-crayola)' }}>
@@ -68,19 +67,27 @@ const Portfolio = () => {
 
           {/* Portfolio items */}
           <div className="projects-display">
-            <ul className="projects-list">
-              {filteredProjects.map((post, index) => (
-                <BlogPost
-                  key={index}
-                  title={post.title}
-                  category={post.category}
-                  date={post.date}
-                  image={post.image}
-                  description={post.description}
-                  link={post.link}
-                />
-              ))}
-            </ul>
+            {filteredProjects.length > 0 ? (
+              <ul className="projects-list">
+                {filteredProjects.map((post, index) => (
+                  <BlogPost
+                    key={index}
+                    title={post.title}
+                    category={post.category}
+                    date={post.date}
+                    image={post.image}
+                    description={post.description}
+                    link={post.link}
+                  />
+                ))}
+              </ul>
+            ) : (
+              <div className="empty-state">
+                <ion-icon name="folder-open-outline"></ion-icon>
+                <h3>No projects found</h3>
+                <p>Try selecting a different category to see more projects.</p>
+              </div>
+            )}
           </div>
         </>
       )}

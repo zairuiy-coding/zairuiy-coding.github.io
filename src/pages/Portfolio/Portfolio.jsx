@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import BlogPost from './BlogPost';
 import LoadingSpinner from '../../components/LoadingSpinner';
+import usePageTitle from '../../hooks/usePageTitle';
 import './Portfolio.css';
 
 const Portfolio = () => {
+  usePageTitle('Portfolio');
+
   const [projects, setProjects] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [loading, setLoading] = useState(true);

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Service from "./Service";
+import usePageTitle from "../../hooks/usePageTitle";
 
 const servicesData = [
   {
@@ -25,6 +26,8 @@ const servicesData = [
 ];
 
 const About = () => {
+  usePageTitle('About Me');
+
   return (
     <article className="about active" data-page="about">
       <header>

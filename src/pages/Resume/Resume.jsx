@@ -1,8 +1,11 @@
 import React from 'react';
 import { FaBookReader, FaRegBookmark } from "react-icons/fa";
 import TimelineItem from './TimelineItem';
+import usePageTitle from '../../hooks/usePageTitle';
 
 const Resume = () => {
+  usePageTitle('Resume');
+
   return (
     <section className="resume-section">
       <header>

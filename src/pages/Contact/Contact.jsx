@@ -1,7 +1,10 @@
 import React, { useEffect } from 'react';
 import emailjs from 'emailjs-com';
+import usePageTitle from '../../hooks/usePageTitle';
 
 const Contact = () => {
+  usePageTitle('Contact');
+
   useEffect(() => {
     emailjs.init('xXRIuRbwkfAlURR6R'); // Replace with your EmailJS public key
   }, []);

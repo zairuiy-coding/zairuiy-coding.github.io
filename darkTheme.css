@@ -143,11 +143,12 @@
   html { font-family: var(--ff-poppins); }
   
   body { background: var(--smoky-black); }
-  
-  
-  
-  
-  
+
+  strong {
+    font-weight: 700;
+    color: var(--white-1);
+  }
+
   /*-----------------------------------*\
     #REUSED STYLE
   \*-----------------------------------*/

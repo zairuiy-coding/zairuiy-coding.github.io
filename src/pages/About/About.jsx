@@ -47,17 +47,16 @@ const About = () => {
         {/* Experience Section */}
         <p>🔹 <strong>Work Experience</strong></p>
         <ul>
-            <li>💳 <strong>PayPal | Software Engineer</strong> – Working on JunoDB distributed database infrastructure, designing high-throughput enhancements and supporting Kubernetes-based modernization efforts.</li>
-            <li>⚡ <strong>Tesla | Software Engineer Intern</strong> – Migrated a legacy .NET ETL system to Golang & React, enhancing scalability for 200+ factory processes.</li>
-            <li>📈 <strong>SciFeCap | Software Engineer Intern</strong> – Built a WebSocket-based real-time data pipeline, optimizing high-frequency trading data and reducing database load.</li>
+            <li>💳 <strong>PayPal | Software Engineer</strong> – Working on JunoDB, PayPal's in-house distributed caching system (350B+ daily requests). Executed tech refresh across 3+ pools with 100GB+ data migration achieving zero downtime; managed GKE-based storage platform reducing latency from 2s to &lt;10ms; designed a distributed counter for linear write throughput scaling.</li>
+            <li>⚡ <strong>Tesla | Software Engineer Intern</strong> – Migrated a legacy .NET ETL system to Golang & React, rebuilding the backend as a task scheduler extracting data from 200+ configured sources and publishing to Kafka topics.</li>
+            <li>📈 <strong>SciFeCap | Software Engineer Intern</strong> – Built a WebSocket-based real-time data pipeline using the Strategy Design Pattern, reducing raw database load by 40% while preserving trading-relevant signals.</li>
         </ul>
 
         <br />
 
         {/* Motivation Section */}
         <p>
-            💡 I thrive on building scalable, high-performance systems and tackling complex engineering challenges.  
-            I’m always eager to explore new technologies and push the boundaries of what’s possible.
+            💡 I’m particularly drawn to the reliability and performance challenges in distributed systems and platform engineering, the kind of problems where correctness, latency, and scale all have to be balanced at once. At PayPal I’ve gotten to work on exactly that, and it’s the space I want to keep going deeper in.
         </p>
 
     </section>

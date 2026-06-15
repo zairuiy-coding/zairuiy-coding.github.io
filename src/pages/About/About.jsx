@@ -6,22 +6,22 @@ const servicesData = [
   {
     icon: "/images/icon-design.svg",
     title: "Backend Development",
-    description: "Building scalable distributed systems with Golang, Kubernetes, and modern databases."
+    description: "Building scalable distributed systems with Golang, Java/Spring, Kubernetes, and modern databases."
+  },
+  {
+    icon: "/images/icon-design.svg",
+    title: "Infrastructure & Platform",
+    description: "Managing production storage platforms on GKE, owning capacity operations, and authoring incident SOPs for large-scale distributed systems."
   },
   {
     icon: "/images/icon-dev.svg",
-    title: "Full-Stack Development",
-    description: "Developing robust full-stack applications with React, Next.js, and Node.js."
+    title: "Full-Stack & Tooling",
+    description: "Developing full-stack applications with React, Next.js, and Node.js, with a focus on internal tooling and developer-facing platforms."
   },
   {
     icon: "/images/icon-photo.svg",
-    title: "Data Engineering",
-    description: "Designing efficient data pipelines and processing systems for real-time analytics."
-  },
-  {
-    icon: "/images/icon-design.svg",  // Replace with a more appropriate icon if available
     title: "API Development",
-    description: "Creating secure, high-performance APIs and microservices for seamless integration."
+    description: "Creating high-performance APIs and real-time data pipelines using FastAPI, WebSockets, and Kafka for latency-sensitive workloads."
   }
 ];
 
@@ -38,7 +38,7 @@ const About = () => {
         <p>
             👋 Hi, I'm <strong>Zairui (Katherine) Yang</strong>, a passionate software engineer
             specializing in backend systems, distributed systems, and full-stack development.
-            I hold an <strong>MSc in Computer and Information Technology</strong> from
+            I hold an <strong>MSc in Computer and Information Technology</strong> from{" "}
             <strong>University of Pennsylvania</strong> (graduated May 2025).
         </p>
 
@@ -83,25 +83,26 @@ const About = () => {
 
             {/* Languages */}
             <div className="skills-category">
-                <h4>Programming Languages</h4>
+                <h4>Languages</h4>
                 <div className="skills-list">
                     <img src="https://img.shields.io/badge/Go-00ADD8?logo=Go&logoColor=white&style=for-the-badge" alt="Go" />
                     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
                     <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
-                    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
                     <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
                     <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sql&logoColor=white" alt="SQL" />
                 </div>
             </div>
 
-            {/* Backend & Distributed Systems */}
+            {/* Infrastructure & DevOps */}
             <div className="skills-category">
-                <h4>Backend & Distributed Systems</h4>
+                <h4>Infrastructure & DevOps</h4>
                 <div className="skills-list">
                     <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
                     <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-                    <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-                    <img src="https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white" alt="Celery" />
+                    <img src="https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white" alt="Elasticsearch" />
+                    <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Kafka" />
+                    <img src="https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI/CD" />
+                    <img src="https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white" alt="Datadog" />
                 </div>
             </div>
 
@@ -121,23 +122,18 @@ const About = () => {
             <div className="skills-category">
                 <h4>Tools & Frameworks</h4>
                 <div className="skills-list">
+                    <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring" />
+                    <img src="https://img.shields.io/badge/JUnit-25A162?style=for-the-badge&logo=junit5&logoColor=white" alt="JUnit" />
                     <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React.js" />
                     <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
                     <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
                     <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
-                    <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="Jest" />
-                    <img src="https://img.shields.io/badge/JUnit-25A162?style=for-the-badge&logo=junit5&logoColor=white" alt="JUnit" />
-                    <img src="https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white" alt="Cypress" />
-                    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-                </div>
-            </div>
-
-            {/* Cloud & DevOps */}
-            <div className="skills-category">
-                <h4>Cloud Platforms</h4>
-                <div className="skills-list">
+                    <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
                     <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
-                    <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud" />
+                    <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="GCP" />
+                    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+                    <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="Jest" />
+                    <img src="https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white" alt="Cypress" />
                 </div>
             </div>
         </section>
